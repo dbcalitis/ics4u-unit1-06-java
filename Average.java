@@ -46,8 +46,8 @@ final class Average {
         double mean = 0;
         final int arrLen = arrayOfIntegers.length;
 
-        for (int i = 0; i < arrLen; i++) {
-            mean += arrayOfIntegers[i];
+        for (int count = 0; count < arrLen; count++) {
+            mean += arrayOfIntegers[count];
         }
 
         mean /= arrLen;
